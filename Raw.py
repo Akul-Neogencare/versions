@@ -9,7 +9,7 @@ def get_user_locale():
     print(local_time.tzinfo)
     print(datetime.now())
     try:
-        start_time_str = "2024-06-27 09:11:38"
+        start_time_str = "2024-06-27 10:11:38"
         start_time = datetime.strptime(start_time_str, '%Y-%m-%d %H:%M:%S')
 
         local_date_time = datetime.now()
