@@ -19,9 +19,11 @@ def get_user_locale():
         time_difference = one - start_time
 
         new = indian_date_time.strftime('%Y-%m-%d %H:%M:%S')
+        print(start_time_str)
         print(time_difference)
         print(one)
     except Exception as E:
         print(E)
 
 
+get_user_locale()
