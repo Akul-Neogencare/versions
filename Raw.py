@@ -25,4 +25,3 @@ def get_user_locale():
         print(E)
 
 
-get_user_locale()
