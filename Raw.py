@@ -22,7 +22,7 @@ def get_user_locale():
         print(start_time_str)
         print(time_difference)
         print(one)
-        return time_difference
+        return start_time_str
 
     except Exception as E:
         print(E)
