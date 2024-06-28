@@ -9,7 +9,7 @@ def get_user_locale():
     print(local_time.tzinfo)
     print(datetime.now())
     try:
-        start_time_str = "2024-06-27 09:11:38"
+        start_time_str = "2024-06-28 09:11:38"
         start_time = datetime.strptime(start_time_str, '%Y-%m-%d %H:%M:%S')
 
         local_date_time = datetime.now()
@@ -22,8 +22,11 @@ def get_user_locale():
         print(start_time_str)
         print(time_difference)
         print(one)
+        return time_difference
+
     except Exception as E:
         print(E)
+        return E
 
 
 # get_user_locale()
